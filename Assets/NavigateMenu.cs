@@ -5,13 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class NavigateMenu : MonoBehaviour
 {
-    private void Update()
-    {
-        if (Input.GetKey("escape"))
-        {
-            QuitGame();
-        }
-    }
     public void SwitchScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
