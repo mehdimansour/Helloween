@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Satan
   layers:
   - Default
   - TransparentFX
@@ -11,9 +12,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - Sidewalls
+  - Floors
+  - Background
   - 
   - 
   - 
@@ -38,9 +39,15 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: background
+  - name: Background
     uniqueID: 3735197187
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Sidewalls
+    uniqueID: 2459163641
+    locked: 0
+  - name: Floors
+    uniqueID: 800602053
     locked: 0

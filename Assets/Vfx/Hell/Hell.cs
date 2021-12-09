@@ -21,7 +21,7 @@ public class Hell : MonoBehaviour
 
     [SerializeField]
     [Range(0,1)]
-    private float Rate;
+    public float Rate;
 
     private void Start()
     {
