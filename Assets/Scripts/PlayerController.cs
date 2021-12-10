@@ -76,12 +76,12 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision) {
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
         Debug.Log(collision.gameObject.tag);
         if (collision.gameObject.tag == SatanTag)
         {
-            Debug.Log("Game Over");
-            NavigateMenu.SwitchScene("EndGameScene");
+            NavigateMenu.SwitchScene("YouWinScene");
         }
     }
 }
