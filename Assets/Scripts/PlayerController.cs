@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.tag == SatanTag)
         {
             Debug.Log("Game Over");
-            NavigateMenu.SwitchScene("EndGameScene");
+            NavigateMenu.SwitchScene("YouWinScene");
         }
     }
 }
