@@ -57,7 +57,11 @@ Material:
     - Vector1_ce7b6d2aeb5c4c1a9e0c4de42a40f4db: 0.01
     - Vector1_dc3d0baab8094f49ad55a47c0a4698fc: 512
     - Vector1_ecaa91646f95447cb9c45c3c5a16fc8c: 0.01
+<<<<<<< Updated upstream
     - _Hell_Intensity: 0
+=======
+    - _Hell_Intensity: -0.037027746
+>>>>>>> Stashed changes
     m_Colors:
     - Color_18bf088ddd644bfd8138a6d2c8292d9f: {r: 23.968628, g: 5.2705884, b: 0, a: 1}
     - Color_961e43754b63437283faf9be7428785c: {r: 32, g: 3.137255, b: 0, a: 1}
